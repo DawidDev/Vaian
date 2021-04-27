@@ -12,7 +12,7 @@ const Card = () => {
 
     const ShowMovies = myLikedMovies.map(item => (
         <div key={item.title} className="poster-box">
-            <Link className="poster-child" to={`/catalogue/${item.lp}`}>
+            <Link className="poster-child" to={process.env.PUBLIC_URL + `/catalogue/${item.lp}`}>
                 <img id="poster" src={`/images/${item.lp}/poster.jpg`} alt="poster"/>    
             </Link> 
             <button id="remove-liked" onClick={removeLikedMovie.bind(this, item.lp)} >Remove</button>

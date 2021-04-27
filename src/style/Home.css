@@ -293,5 +293,6 @@ h2 {
     /* Style dla komonentu SeriesTV */
     .series-tv .serial {
       height: 50vw;
+      width: 90%;
     }
 }

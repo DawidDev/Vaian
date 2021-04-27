@@ -86,4 +86,10 @@ body {
     width: 45vw;
     height: 70vw;
   }
+  .poster-box #poster-info {
+    display: none;
+  }
+  .poster-box:hover img {
+    filter: none;
+  }
 } 
