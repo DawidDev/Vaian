@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/vaian/static/css/main.9bbfc830.chunk.css",
+    "main.js": "/vaian/static/js/main.1a454784.chunk.js",
+    "main.js.map": "/vaian/static/js/main.1a454784.chunk.js.map",
+    "runtime-main.js": "/vaian/static/js/runtime-main.228b2357.js",
+    "runtime-main.js.map": "/vaian/static/js/runtime-main.228b2357.js.map",
+    "static/css/2.fcbfeb40.chunk.css": "/vaian/static/css/2.fcbfeb40.chunk.css",
+    "static/js/2.a62c54a3.chunk.js": "/vaian/static/js/2.a62c54a3.chunk.js",
+    "static/js/2.a62c54a3.chunk.js.map": "/vaian/static/js/2.a62c54a3.chunk.js.map",
+    "static/js/3.5cded633.chunk.js": "/vaian/static/js/3.5cded633.chunk.js",
+    "static/js/3.5cded633.chunk.js.map": "/vaian/static/js/3.5cded633.chunk.js.map",
+    "index.html": "/vaian/index.html",
+    "static/css/2.fcbfeb40.chunk.css.map": "/vaian/static/css/2.fcbfeb40.chunk.css.map",
+    "static/css/main.9bbfc830.chunk.css.map": "/vaian/static/css/main.9bbfc830.chunk.css.map",
+    "static/js/2.a62c54a3.chunk.js.LICENSE.txt": "/vaian/static/js/2.a62c54a3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.228b2357.js",
+    "static/css/2.fcbfeb40.chunk.css",
+    "static/js/2.a62c54a3.chunk.js",
+    "static/css/main.9bbfc830.chunk.css",
+    "static/js/main.1a454784.chunk.js"
+  ]
+}
