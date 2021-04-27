@@ -72,7 +72,7 @@ const App = () => {
         addLikedMovie: addToCardMovie,
         removeLikedMovie: removeFromCardMovie
       }}>
-        <Router>    
+        <Router basename={process.env.PUBLIC_URL}>    
           <Navigation/>  
           <Content/>
           <Footer />

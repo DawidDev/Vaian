@@ -14,7 +14,7 @@ const SeriesTV = () => {
     const readyData = readyTab.map(item => (
         <div key={item.lp} className="poster-box serial">
             <Link className="poster-child" to={`/catalogue/${item.lp}`}>
-                <img id="poster" src={`/images/${item.lp}/posterbox.jpg`} alt="poster"/>
+                <img id="poster" src={process.env.PUBLIC_URL+`/images/${item.lp}/posterbox.jpg`} alt="poster"/>
                 <div id="poster-info">
                     <h3>{item.title}</h3>
                     <p>rating: {item.rating}</p>

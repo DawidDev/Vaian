@@ -25,7 +25,7 @@ const SliderBackground = ({index}) => {
     const readySlider = photosFromMovie.map(item => {
         return (
         <SwiperSlide key={item}>
-           <img id="background" src={`/images/${index}/img${item}.jpg`} alt="slide"/>
+           <img id="background" src={process.env.PUBLIC_URL + `/images/${index}/img${item}.jpg`} alt="slide"/>
            <div className="gradient-box"></div>
         </SwiperSlide>
     )})

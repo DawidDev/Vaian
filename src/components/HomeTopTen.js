@@ -18,7 +18,7 @@ const ShowingMovies = ({ tabMovies }) => {
         <SwiperSlide key={item.title} className="movie">
             <div key={item.lp} className="poster-box">
                 <Link className="poster-child" to={`/catalogue/${item.lp}`}>
-                    <img id="poster" src={`/images/${item.lp}/poster.jpg`} alt="poster"/>
+                    <img id="poster" src={process.env.PUBLIC_URL + `/images/${item.lp}/poster.jpg`} alt="poster"/>
                     <div id="poster-info">
                     <h3>{item.title}</h3>
                     <p>rating: {item.rating}</p>

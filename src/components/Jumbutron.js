@@ -77,7 +77,7 @@ const ShowingJumbo = () => {
                 <button id="add" onClick={addLikedMovie.bind(this, item)} >Add to card</button>
             </div>
             
-            <img id="slider" src={`/images/${item.lp}/img1.jpg`} alt="jumbutron"/>
+            <img id="slider" src={process.env.PUBLIC_URL +`/images/${item.lp}/img1.jpg`} alt="jumbutron"/>
             <div className="gradient-box"></div>
         </SwiperSlide>
     )})
