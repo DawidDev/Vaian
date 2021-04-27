@@ -1,0 +1,34 @@
+.container-new-movies {
+    padding-top: 95px;
+    margin: 0 auto;
+    color: white;
+    max-width: 1400px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container-new-movies h2.title {
+    width: 100%;
+    font-size: 60px;
+    margin: 0;
+    padding-left: 15px;
+    font-weight: 600;
+}
+/*
+.poster-box {
+    width: 260px;
+    height: 350px;
+    margin: 10px 5px;
+    border-radius: 25px;
+    background-color:slateblue;
+    position: relative;
+    overflow: hidden;
+}
+
+#poster {
+    width: 100%;
+    height: 100%;
+}
+*/

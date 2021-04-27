@@ -1,0 +1,18 @@
+.container-search {
+    padding-top: 95px;
+    min-height: 90vh;
+    margin: 0 auto;
+    color: white;
+    max-width: 1400px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+@media (max-width: 768px) {
+    .container-search {
+        min-height: 75vh;
+    }
+} 

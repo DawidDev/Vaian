@@ -1,0 +1,105 @@
+.container-catalogue {
+    padding-top: 95px;
+    margin: 0 auto;
+    color: white;
+    max-width: 1400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.container-catalogue .attribute {
+    width: 100%;
+    padding-left: 15px;
+}
+
+.container-catalogue h2.title {
+    width: 100%;
+    font-size: 60px;
+    margin: 0;
+    padding-left: 15px;
+    font-weight: 600;
+}
+
+
+/* Stylowanie elementów wybierania sortowania i kategorii */
+.attribute-category, .attribute-sort {
+    width: 170px;
+    float: left;
+}
+
+.attribute-sort {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.select {
+    font-size: 15px;
+    width: 170px;
+    border: none;
+    border-bottom: 1px solid #7133EB;
+    background-color: transparent;
+    padding: 10px;
+    color: #fff;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+}
+
+.list {
+    width: 170px;
+    position: absolute;
+    z-index: 1;
+    display: none;
+    overflow: hidden;
+}
+
+.list option {
+    padding: 10px 15px;
+    transition: 0.2s;
+    background-color: #241d29;
+}
+
+.list:last-child {
+    padding-bottom: 10px;
+}
+
+.select img {
+    width: 20px;
+    height: 12px;
+    transform: translateY(7px);
+}
+
+.select:hover {
+    cursor: pointer;
+}
+
+.show-list {
+    display: block;
+}
+
+
+option:hover {
+    cursor: pointer;
+    color: #7133EB;
+    background-color: rgb(33, 12, 75);
+}
+
+
+@media (max-width: 768px) {
+    .container-catalogue .attribute {
+        display: flex;
+        justify-content: space-around;
+        margin: 0;
+        padding: 0;     
+    }
+
+    .attribute-category, .attribute-sort {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+

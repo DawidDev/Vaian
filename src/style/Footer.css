@@ -1,0 +1,50 @@
+footer {
+    max-width: 1400px;
+    width: 100%;
+    padding-top: 15px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+footer h5 {
+    font-size: 30px;
+    margin: 0;
+}
+
+footer .social {
+    width: 30%;
+}
+
+footer .logo-footer {
+    width: 40%;
+}
+footer p {
+    width: 30%;
+    margin: 0;
+    padding: 0;
+}
+
+footer .social a {
+    margin: 0 10px;
+}
+
+
+@media (max-width: 768px) {
+    footer {
+        flex-direction: column;
+    }
+
+    footer .social {
+        margin: 10px 0;
+        width: 100%;
+        order: 2;
+    }
+
+    footer p {
+        width: 100%;
+        order: 3;
+    }
+}
