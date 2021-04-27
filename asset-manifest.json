@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/vaian/static/css/main.9bbfc830.chunk.css",
-    "main.js": "/vaian/static/js/main.a1f95464.chunk.js",
-    "main.js.map": "/vaian/static/js/main.a1f95464.chunk.js.map",
+    "main.js": "/vaian/static/js/main.7c3c1d01.chunk.js",
+    "main.js.map": "/vaian/static/js/main.7c3c1d01.chunk.js.map",
     "runtime-main.js": "/vaian/static/js/runtime-main.228b2357.js",
     "runtime-main.js.map": "/vaian/static/js/runtime-main.228b2357.js.map",
     "static/css/2.fcbfeb40.chunk.css": "/vaian/static/css/2.fcbfeb40.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.fcbfeb40.chunk.css",
     "static/js/2.a62c54a3.chunk.js",
     "static/css/main.9bbfc830.chunk.css",
-    "static/js/main.a1f95464.chunk.js"
+    "static/js/main.7c3c1d01.chunk.js"
   ]
 }
