@@ -87,7 +87,7 @@ const SelectedMovie = ({match}) => {
             <div className="content-selected-movie">
                 <div className="main-info"> 
                     <h2>{selectedMovie.title}</h2>
-                    <p>{selectedMovie.premiere.year} | +12</p>
+                    <p>{selectedMovie.premiere.year} | +{selectedMovie.age}</p>
                     <div className="box-info">
                         <p>{selectedMovie.category}</p>
                         <Stars number={selectedMovie.rating}/>

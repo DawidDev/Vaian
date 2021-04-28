@@ -174,14 +174,19 @@
 
 
 @media (max-width: 768px) {
+
+    .slider-background {
+        height: 60vh;
+    }
+
     .content-selected-movie {
-        top: 60vh;
+        top: 52vh;
     }
     
     .content-selected-movie .main-info {
         padding: 0;
         min-width: 350px;
-        margin: 0 auto;
+        margin-left: 5vw;
     }
     .short-text {
         display: none;

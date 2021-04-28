@@ -19,22 +19,28 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, EffectFade, Autoplay ])
 
 const moviesObj = [
     {
-        lp: 1,
-        title: moviesDatabase[0].title,
-        year: moviesDatabase[0].year,
-        rating: moviesDatabase[0].rating, 
+        lp: 19,
+        title: moviesDatabase[18].title,
+        year: moviesDatabase[18].year,
+        rating: moviesDatabase[18].rating, 
+        premiere: moviesDatabase[18].premiere.year,
+        age: moviesDatabase[18].age
     },
     {
         lp: 2,
         title: moviesDatabase[1].title,
         year: moviesDatabase[1].year,
         rating: moviesDatabase[1].rating, 
+        premiere: moviesDatabase[1].premiere.year,
+        age: moviesDatabase[1].age
     },
     {
-        lp: 19,
-        title: moviesDatabase[18].title,
-        year: moviesDatabase[18].year,
-        rating: moviesDatabase[18].rating, 
+        lp: 1,
+        title: moviesDatabase[0].title,
+        year: moviesDatabase[0].year,
+        rating: moviesDatabase[0].rating, 
+        premiere: moviesDatabase[0].premiere.year,
+        age: moviesDatabase[0].age
     }
     
 ]
@@ -67,7 +73,7 @@ const ShowingJumbo = () => {
                 <div className="isNew">NEW</div>
                 <h1>{item.title}</h1>
                 <div className="info">
-                    <p>2018 | +12</p>
+                    <p>{item.premiere} | +{item.age}</p>
                     <Stars number={stars}/>
                     <button className="btn-details">
                         <Link id="btn-details-link" to={`/catalogue/${item.lp}`}>Details</Link>

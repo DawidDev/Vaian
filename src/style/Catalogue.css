@@ -28,6 +28,7 @@
 .attribute-category, .attribute-sort {
     width: 170px;
     float: left;
+    z-index: 1;
 }
 
 .attribute-sort {

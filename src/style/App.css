@@ -16,6 +16,7 @@ body {
   background-color:slateblue;
   position: relative;
   overflow: hidden;
+  z-index: 0;
 }
 
 #poster {

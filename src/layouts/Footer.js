@@ -21,7 +21,7 @@ const Footer = () => {
             <div className="logo-footer">
                 <h5>VAIAN</h5>
             </div>
-            <p>© 2021 LUXX C.</p>
+            <p>© Vaian 2021 L.C. D.R.</p>
         </footer>
      );
 }
