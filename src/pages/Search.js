@@ -18,7 +18,7 @@ const Search = () => {
     return ( 
         <>
             <div className="container-search">  
-                <PosterBox tab={tab} />
+                <PosterBox tab={tab} />bl
             </div>
         </>
      );
